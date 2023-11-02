@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #3197eb;
+    --corhover: #00e0a0;
+    --cor02: #8a89e6;
+    --cor03: #524985;
+    --cor04: #3e3f3f;
+}
+
+body {
+    background-color: #e9e9ff;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #d8d8ff;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+
+
+header a:hover {
+    transition: .2s;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    min-height: 150px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: var(--cor02);
+    border: 1px solid white;
+    box-shadow: -5px 5px ;
+}
+
+.produtos input,
+.produtos label {
+    cursor: pointer;
+}
+
+.produtos div {
+    font-weight: bold;
+    color: var(--cor04);
+    margin: 5px 0px;
+    max-width: 200px;
+    padding: 5px;
+    transition: .3s;
+}
+
+.produtos div:hover {
+    background-color: var(--corhover);
+    max-width: 200px;
+    border-radius: 25px;
+    padding: 5px;
+    transition: .3s;
+}
+
+.final {
+    max-width: 700px;
+    margin: 60px auto 5px auto;
+    line-height: 30px;
+    text-align: center;
+}
+
+.final input,
+.final button {
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 0px 5px;
+    border: 1px solid var(--cor03);
+    border-radius: 3px;
+}
+
+.final input {
+    max-width: 80px;
+}
+
+.final button {
+    background-color: var(--cor04);
+    color: white;
+    cursor: pointer;
+}
+
+#res {
+    background-color: var(--cor04);
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: left;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: -5px 5px black;
+}
+
+footer {
+    margin: 0px;
+    background-color: #d8d8ff;
+    text-align: center;
+    padding-top: 15px;
+    height: 30px;
+}
+
+footer p{
+    margin: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+span {
+    color: var(--cor01);
+    font-weight: bold;
+}
+
